@@ -18,7 +18,20 @@
 Install this project with npm
 
 ```bash
-  npm install 
+  npm install
+```
+
+In the root folder of your project, create a new file named .env.
+Add the following content, replacing the values with your own credentials:
+```bash
+  MONGODB_USER=your_mongodb_username
+  MONGODB_PASSWORD=your_mongodb_password
+```
+Save the file.
+Do not commit this file to public repositories, as it contains sensitive information.
+
+Run app with:
+```bash
   npm run start:dev
 ```
     
